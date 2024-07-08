@@ -96,6 +96,10 @@ public class Main {
         menu();
     }
     
+    public static void pesquisarTarefaPeloNome(){
+        // este método irá servir para buscar uma tarefa pelo seu nome (como se fosse um filtro)
+    }
+    
     public static void menu() throws SQLException{
         System.out.println("Digite a opção desejada?\n1-cadastrar\n2-visualizar\n3-editar\n4-deletar");
         Scanner scan = new Scanner(System.in);
